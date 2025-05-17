@@ -1,0 +1,16 @@
+{
+  "name": "NEXUS-XMD",
+  "description": "For deploying NEXUS-XMD.",
+  "repository": "https://github.com/Pkdriller/NEXUS-XMD",
+  "build": {
+    "commands": {
+      "install": "yarn install",
+      "start": "yarn start"
+    }
+  },
+  "envs": {
+    "SESSION_ID": {
+      "description": "Put Your Session Id"
+    }
+  }
+}
