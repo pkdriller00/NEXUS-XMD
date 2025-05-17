@@ -51,6 +51,10 @@ READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
+HEART_REACT: process.env.HEART_REACT || "false",
+// make this true or false for heart reactions only 
+OWNER_REACT: process.env.OWNER_REACT || "false",
+// make it true or fasle for only react on owner msg only
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
